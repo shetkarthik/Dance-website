@@ -1,0 +1,69 @@
+doctype html
+html
+    head 
+       title Divine dance academy
+        style      
+          include ../static/style.css
+
+        script     
+         scripts(src='/static/index.js')
+    body
+        nav#navbar
+           ul
+              div#logo
+                    img(src="/static/img/logo.png")
+                
+              li #[a(href="/") Home]
+
+              li #[a(href="/") About]
+
+              li #[a(href="/") Services]
+
+              li #[a(href="/") Class info]
+
+              li #[a(href="/") Contact us]
+               
+        section#introSection 
+
+            div.h1 Welcome to Divine Dance Academy
+            div.small Live Learn Dance Repeat 
+            div.joni
+                  button.btn Join   
+        section#missionSection 
+            h2 Our Mission
+            div.card
+              h3 Dance Perfection
+              div.card-box
+                div.card-img
+                    img(src="/static/img/img1.png", alt="")
+                div.card-content
+                    p "Dance with peace in mind brings perfection"
+            div.card
+              h3 Dance the way you like
+              div.card-box
+                div.card-img
+                    img(src="/static/img/img2.jpg", alt="")
+                div.card-content
+                    p "Dance has no limits, no styles ,no form" 
+            div.card
+              h3 Expert teaching
+              div.card-box
+                div.card-img
+                    img(src="/static/img/img3.png", alt="")
+                div.card-content
+                    p "True meaning of dance"
+
+        section#sponsorsSection 
+            h3 Our Sponsors
+            div#sponsors
+                img(src="/static/img/logo1.png", alt="Sponsor image" class="spimg")
+                img(src="/static/img/logo2.jpg", alt="Sponsor image" class="spimg")
+                img(src="/static/img/logo3.png", alt="Sponsor image" class="spimg")
+                img(src="/static/img/logo4.jpg", alt="Sponsor image" class="spimg")
+        footer#footer 
+            | Copyright &copy 2021 www.divinedanceacademy.com | All rights reserved
+        script 
+           include ../static/index.js
+
+
+   
